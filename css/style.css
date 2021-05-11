@@ -1,0 +1,151 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.resume{
+	font-size: 30px;
+	font-family: initial;
+}
+
+.child{
+	width: 25%;
+	height: 40%;
+	border: 1px groove #ddd;
+	background-color: #F0B2F5;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px #000;
+	border-radius: 10px;
+}
+
+.role{
+	color: #050004;
+	font-style: inherit;
+}
+
+.profile{
+	width: 60%;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.link{
+	margin: 1%;
+	text-decoration: none;
+	font-size: 18px;
+	color: #5062b4;
+
+
+}
+.info{
+	width: 7%;
+}
+
+.contact{
+	text-align: left;
+}
+
+.socialicons{
+	width: 15%;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+
+}
+
+.child3{
+	/*width: 60%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #EBD8E8;
+	border: 1px groove #ddd
+	box-shadow: 9px 9px 9px 9px #000;
+	font-size: 20px;*/
+	width: 60%;
+	border: 1px groove #ddd;
+	background-color: #A0E2E6;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 2px 2px 2px 2px #000;
+	border-radius: 10px;
+}
+
+
+ul li{
+	font-size: 20px;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+
+table{
+	width: 100%;
+}
+thead{
+	background: #000;
+	color: #fff;
+	/*padding: 1%;*/
+}
+
+tbody tr:nth-child(odd){
+	background: #ddd
+}
+
+
+
+.tableresponsive{
+	overflow-x: auto;
+}
+
+
+
+.child3 span{
+	border-radius: 10px;
+	margin: 1%;
+	border: 1px solid #23347f;
+	padding: 1%;
+	background: #F4BCEF;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+.child3 p{
+	border-radius: 10px;
+	margin: 1%;
+	/*border: 1px solid #23347f;*/
+	padding: 1%;
+	/*background: #F4BCEF;*/
+	box-shadow: 0px 8px 8px -8px #000;
+	font-size: 19px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.child{
+	width: 80%;
+	border: 1px groove #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 9px 9px 9px 9px #000;
+	border-radius: 10px;
+}
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.child{
+	width: 45%;
+	border: 1px groove #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px #000;
+	border-radius: 20px;
+}
+
+}
