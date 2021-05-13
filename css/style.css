@@ -14,7 +14,7 @@
 	width: 25%;
 	height: 40%;
 	border: 1px groove #ddd;
-	background-color: #F0B2F5;
+	background-color: #A0E2E6;
 	padding: 1%;
 	margin: 1%;
 	text-align: center;
@@ -56,17 +56,10 @@
 
 }
 
-.child3{
-	/*width: 60%;
-	margin: 1%;
-	padding: 1%;
-	background-color: #EBD8E8;
-	border: 1px groove #ddd
-	box-shadow: 9px 9px 9px 9px #000;
-	font-size: 20px;*/
+.child2{
 	width: 60%;
 	border: 1px groove #ddd;
-	background-color: #A0E2E6;
+	/*background-color: #A0E2E6;*/
 	padding: 1%;
 	margin: 1%;
 	box-shadow: 2px 2px 2px 2px #000;
@@ -104,7 +97,7 @@ tbody tr:nth-child(odd){
 
 
 
-.child3 span{
+.child2 span{
 	border-radius: 10px;
 	margin: 1%;
 	border: 1px solid #23347f;
@@ -112,7 +105,7 @@ tbody tr:nth-child(odd){
 	background: #F4BCEF;
 	box-shadow: 0px 8px 8px -8px #000;
 }
-.child3 p{
+.child2 p{
 	border-radius: 10px;
 	margin: 1%;
 	/*border: 1px solid #23347f;*/
@@ -125,12 +118,21 @@ tbody tr:nth-child(odd){
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
 	.child{
-	width: 80%;
+	width: 90%;
 	border: 1px groove #ddd;
 	padding: 1%;
 	margin: 1%;
 	text-align: center;
 	box-shadow: 9px 9px 9px 9px #000;
+	border-radius: 10px;
+}
+.child2{
+	width: 100%;
+	border: 1px groove #ddd;
+	/*background-color: #A0E2E6;*/
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 2px 2px 2px 2px #000;
 	border-radius: 10px;
 }
 
@@ -139,7 +141,7 @@ tbody tr:nth-child(odd){
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
 	.child{
-	width: 45%;
+	width: 90%;
 	border: 1px groove #ddd;
 	padding: 1%;
 	margin: 1%;
@@ -147,5 +149,13 @@ tbody tr:nth-child(odd){
 	box-shadow: 3px 3px 3px 3px #000;
 	border-radius: 20px;
 }
-
+.child2{
+	width: 100%;
+	border: 1px groove #ddd;
+	/*background-color: #A0E2E6;*/
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 2px 2px 2px 2px #000;
+	border-radius: 10px;
+}
 }
